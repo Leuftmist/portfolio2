@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('TrajanPro-Regular.ttf') format('truetype');
+  }
+
+body{
+    background-color: #343c3a;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: left;
+    font-family: 'Trajan Pro', serif;
+    background-image: url('FINALSsudokuscreenshot.png'), url('https://wallpapercave.com/wp/gsj6Fcx.jpg');
+    background-position: right center , center;
+    background-repeat: no-repeat;
+    background-size: 50%, cover;
+    flex-direction: column;
+    color: white;
+}
+h1 {
+    color: rgb(128, 42, 42);
+    font-size: 50px;
+    text-shadow: 2px 2px 6px #000000;
+}
+.Guide {
+    width: 45%;
+    height: 10%;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+.engravings th,td {
+    padding: 10px;
+    border: solid;
+}
+.engravings {
+    border: solid;
+}
+.engravings td {
+    text-align: center;
+}
+.backbutton{
+    width: 64px;
+    height: 64px;
+}
